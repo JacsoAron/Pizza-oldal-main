@@ -4,12 +4,25 @@
     height: 500px;
 
 }
+#cim{
+    float: left;
+}
 .navbar{
-    text-align: right;
+    float: right;
+    padding: 30px;
+
 }
 #piadina{
     margin-left: 300px;
+    float: left;
 }
 #tortenet{
     margin-right: 200px;
+    float: right;
+}
+p{
+    color: grey;
+}
+#Piadina{
+    background-color: black;
 }
