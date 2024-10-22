@@ -1,7 +1,8 @@
 .header{
     background-image: url(img/pizzaegysz.jpg);
     color: white;
-    height: 500px;
+    height: 530px;
+    width: 100%;
 
 }
 #cim{
@@ -13,16 +14,32 @@
 
 }
 #piadina{
-    margin-left: 300px;
-    float: left;
+    color: white;
+    display: inline-block;
+    background-color: rgb(49, 48, 48);
 }
 #tortenet{
     margin-right: 200px;
-    float: right;
+
 }
 p{
     color: grey;
 }
-#Piadina{
+#menu{
     background-color: black;
+    text-align: center;
+    
+    
+}
+.pizza{
+    display: inline-block;
+    border: 1px, solid, white;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    background-color: black;
+    padding: 8px 50px;
+}
+h1{
+    color: white;
 }
