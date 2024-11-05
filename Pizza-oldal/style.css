@@ -53,10 +53,19 @@ h1{
     text-align: center;
 }
 #bal{
+    width: 40%;
+    padding-left: 30%;
     float: left;
+
 }
 #jobb{
+    width: 70%;
     float: right;
+    margin-top: auto;
+
+}
+#piadina2{
+    font-size: 24px;
 }
 #Pizza{
     height: 300px;
@@ -76,5 +85,24 @@ h1{
 #salata{
     height: 250px;
     width: 250px;
-    
+    padding-bottom: 35px;
+}
+.pizza{
+    margin: 15px;
+}
+#pizza2{
+    height: 250px;
+    width: 250px;
+    padding-left: 30px;
+    margin: auto;
+    padding-bottom: 35px;
+}
+#eloetel{
+    height: 180px;
+    width: 220px;
+    padding-bottom: 35px;
+}
+#MENU{
+    width: 80%;
+    text-align: center;
 }
