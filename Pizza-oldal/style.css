@@ -51,6 +51,9 @@ h1{
     background-color: rgb(49, 48, 48);
     padding: 5px;
     text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+
 }
 #bal{
     float: left;
@@ -70,36 +73,8 @@ h1{
 #piadina2{
     font-size: 24px;
 }
-#Pizza{
-    height: 300px;
-    width: 50%;
-    display: inline-block;
-    margin: auto;
-    padding: 30px;
 
-}
-#marhapecsenye{
-    height: 400px;
-    width: 250px;
-    margin: auto;
-    padding-bottom: 30px;
-    
-}
-#salata{
-    height: 250px;
-    width: 250px;
-    padding-bottom: 35px;
-}
-.pizza{
-    margin: 15px;
-}
-#pizza2{
-    height: 250px;
-    width: 250px;
-    padding-left: 30px;
-    margin: auto;
-    padding-bottom: 35px;
-}
+
 #eloetel{
     height: 180px;
     width: 220px;
@@ -129,7 +104,8 @@ h1{
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 5vw);
-    grid-gap: 15px;
+    grid-gap: 23px;
+
 }
 .gallery__img {
     width: 100%;
@@ -138,33 +114,38 @@ h1{
 }
 .gallery__item--1{
     grid-column-start: 1;
-    grid-column-end: 5;
+    grid-column-end: 7;
     grid-row-start: 1;
-    grid-row-end: 5;
+    grid-row-end: 6;
+    margin: 0;
 }
 .gallery__item--2 {
     grid-column-start: 7;
     grid-column-end: 9;
     grid-row-start: 1;
-    grid-row-end: 6;
+    grid-row-end: 7;
+    margin: 0;
 }
 .gallery__item--3 {
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 4;
     grid-row-start: 6;
     grid-row-end: 9;
+    margin: 0;
 }
 .gallery__item--4 {
     grid-column-start: 4;
-    grid-column-end: 6;
+    grid-column-end: 7;
     grid-row-start: 6;
     grid-row-end: 9;
+    margin: 0;
 }
 .gallery__item--5{
     grid-column-start: 7;
     grid-column-end: 9;
     grid-row-start: 7;
     grid-row-end: 9;
+    margin: 0;
 }
 
 a{
