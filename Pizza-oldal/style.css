@@ -19,6 +19,7 @@
     color: white;
     display: inline-block;
     background-color: rgb(49, 48, 48);
+    height: 250px;
     
 }
 #tortenet{
@@ -44,6 +45,9 @@ p{
     background-color: black;
     padding: 8px 50px;
 }
+#gomb{
+    padding-bottom: 30px;
+}
 h1{
     color: white;
 }
@@ -67,11 +71,12 @@ h1{
     margin-left: 50%;
     margin-right: 20%;
     width: 50%;
- 
+    padding-top: 35px;
 
 }
 #piadina2{
     font-size: 24px;
+    padding-top: 35px;
 }
 
 
@@ -81,11 +86,14 @@ h1{
     padding-bottom: 35px;
 }
 #MENU{
-    width: 80%;
+    width: 70%;
     text-align: center;
+    padding-left: 150px;
+
 }
 #nyitvatartas{
     background-color: black;
+    padding: 5px;
 }
 #szeretettel{
     float: left;
@@ -94,15 +102,21 @@ h1{
 
 }
 #nyitva{
-    height: 30%;
+    height: 20%;
     width: 20%;
     float: center;
-
-
+    padding-left: 450px;
+    letter-spacing: 0;
+}
+#probaldki{
+    padding-left: 750px;
+    padding-top: 80px;
+    float: right;
+    
 }
 
 .gallery {
-    background-color: rgb(49, 48, 48);;
+    background-color: rgb(49, 48, 48);
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 5vw);
@@ -159,6 +173,10 @@ a{
     padding-top: 40px;
 
 }
+#feher{
+    color: white;
+    letter-spacing: 0;
+}
 #hr{
     margin-left: 10%;
     margin-right: 10%;
@@ -169,3 +187,14 @@ a{
     padding-top: 10px;
 
 }
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+.div1 { grid-area: 1 / 2 / 2 / 3; }
+.div2 { grid-area: 1 / 3 / 4 / 4; }
+.div3 { grid-area: 1 / 4 / 2 / 5; }
