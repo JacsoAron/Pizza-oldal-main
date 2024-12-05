@@ -69,14 +69,14 @@ h1{
 #bal{
     float: left;
     text-align: right;
-    margin-left: 30%;
+    margin-left: 25%;
 
 }
 #jobb{
     margin-top: auto;
     text-align: left;
-    margin-left: 50%;
-    margin-right: 20%;
+    margin-left: 45%;
+    margin-right: 30%;
     width: 50%;
     padding-top: 35px;
 
@@ -84,6 +84,9 @@ h1{
 #piadina2{
     font-size: 24px;
     padding-top: 35px;
+}
+ul{
+    list-style-type: none;
 }
 
 
@@ -93,9 +96,9 @@ h1{
     padding-bottom: 35px;
 }
 #MENU{
-    width: 70%;
+    width: 60%;
     text-align: center;
-    padding-left: 150px;
+    padding-left: 270px;
 
 }
 #nyitvatartas{
@@ -201,8 +204,8 @@ a{
 }
 .parent {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(8, 1fr);
+    grid-template-columns: repeat(3, 1fr) 0.75fr repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     color: rgb(207,207,207);
@@ -214,16 +217,17 @@ a{
     .div3 { grid-area: 1 / 5 / 4 / 7; }
 .div1{
     text-align: right;
-    margin-left: 195px;
+    margin-left: 200px;
 }
 .div2{
     width: 60%;
     padding-left: 60px;
+    margin: 0;
 }
 .div3{
     text-align: left;
-    width: 70%;
-    margin-right: 200px;
+    width: 60%;
+    margin-right: 350px;
 }
 
 .bottom-center{
