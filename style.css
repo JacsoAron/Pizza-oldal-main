@@ -258,6 +258,26 @@ a{
     font-size: 20px;
     bottom: 30%;
 }
-@media only screen and (max-width:800px){
-
+@media only screen and (max-width:1267px){
+    #bal{
+        margin-left: 10%;
+        text-align: auto;
+        margin-right: none;
+    }
+    #piadina{
+        height: 300px;
+    }
+    #piadina2{
+        width:75%;
+    }
+    #piadina3{
+        margin-left: 10%;
+        width: 75%;
+        margin-right: none;
+    }
+    #jobb{
+        width: 70%;
+        margin-left: 30%;
+        margin-right: 10%;
+    }
 }
