@@ -98,7 +98,9 @@ ul{
 #MENU{
     width: 60%;
     text-align: center;
-    padding-left: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    
 
 }
 #nyitvatartas{
@@ -282,6 +284,7 @@ a{
         margin-right: 10%;
 
     }
+
 }
 @media only screen and (max-width:1113px){
     #jobb{
@@ -294,5 +297,57 @@ a{
         padding-left: 0;
         padding-right: 0;
     }
+    .bottom-center{
+        bottom: 20%;
+        font-size: 18px;
+    }
+    .bottom-center-1{
+        bottom: 25%;
+        font-size: 18px;
+    }
+    .bottom-center-2{
+        bottom: 25%;
+        font-size: 18px;
+    }
+    .bottom-center-3{
+        bottom: 40%;
+        font-size: 18px;
+    }
 }
+.topnav {
+    overflow: hidden;
+
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .header a {
+    
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    
+  }
+  
+  .header a.icon {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    
+    
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  }
     

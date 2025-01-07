@@ -4,18 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Pizzéria</title>
 </head>
 <body>
+
     <div class="header">
         <h1 id="cim">PIZZÉRIA</h1>
-        <nav class="navbar">
-            <a >KEZDŐLAP</a>
-            <a >MENÜ</a>
-            <a >RÓLUNK</a>
-            <a >KAPCSOLAT</a>    
-        </nav>    
-    </div>
+        <div id="myLinks">
+          <a href="#news">Kezdőlap</a>
+          <a href="#contact">Menü</a>
+          <a href="#about">Rólunk</a>
+          <a>Kapcsolat</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
 
      <div id="piadina"> 
         <div id="bal">
@@ -148,6 +153,24 @@
             
             <footer id="footer2">Az oldalt a <a href="#">Webnode</a>  működteti</footer>
     </div>
-
-</body>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
+     <!--       <div class="header">
+        
+                <nav class="navbar">
+                    <a >KEZDŐLAP</a>
+                    <a >MENÜ</a>
+                    <a >RÓLUNK</a>
+                    <a >KAPCSOLAT</a>    
+                </nav>    
+            </div> -->
+    </body>
 </html>
