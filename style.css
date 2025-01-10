@@ -274,7 +274,7 @@ a{
 }
 @media only screen and (max-width:1267px){
     #bal{
-        margin-left: 10%;
+        margin-left: 0%;
         text-align: auto;
         margin-right: none;
     }
@@ -369,6 +369,20 @@ a{
         width: 300px;
       }
 }
+@media only screen and (min-width:1120px)
+{
+    .topnav #myLinks {
+        display: block;
+      }
+      .topnav{
+        overflow: visible;
+      }
+}
+@media only screen and (max-width:990px){
+    .div1{
+        margin-left: 150px;
+    }
+}
 @media only screen and (max-width:970px){
     #tortenet{
         margin-right: 5%;
@@ -378,9 +392,43 @@ a{
     }
 }
 @media only screen and (max-width:840px){
+
+    .div1{
+        margin-left: 100px;
+    }
+
+    #jobb{
+        margin-left: 15%;
+    }
     #tortenet{
-        margin-right: 5%;
-        width: 85%;
+        margin-right: 1%;
+        width: 95%;
+    }
+    #piadina2{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    #bal{
+        column-rule-width: 150px;
+        
+    }
+}
+@media only screen and (max-width:630px)
+{
+    #bal{
+        margin-left: 3%;
+
+    }
+    #jobb{
+        margin-left: 0%;
+        margin-right: 1%;
+        
+    }
+}
+@media only screen and (max-width:690px)
+{
+    .div1{
+        margin-left: 50px;
     }
 }
 
