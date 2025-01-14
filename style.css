@@ -374,9 +374,7 @@ a{
     .topnav #myLinks {
         display: block;
       }
-      .topnav{
-        overflow: visible;
-      }
+      
 }
 @media only screen and (max-width:990px){
     .div1{
@@ -410,26 +408,64 @@ a{
     }
     #bal{
         column-rule-width: 150px;
+        height: 200px;
         
     }
 }
-@media only screen and (max-width:630px)
-{
-    #bal{
-        margin-left: 3%;
 
-    }
-    #jobb{
-        margin-left: 0%;
-        margin-right: 1%;
-        
-    }
-}
 @media only screen and (max-width:690px)
 {
     .div1{
         margin-left: 50px;
     }
+}
+@media only screen and (max-width:650px)
+{
+    #bal{
+        float: right;
+        margin-left: 0;
+        margin-right: 0;
+        height: 100px;
+        display: block;
+    }
+    #jobb{
+        float: none;
+        margin: 0px;
+        margin-right: 0px;
+        width: auto;
+        text-align: left;
+        padding-top: 150px;
+
+    }
+    #MENU{
+        margin: auto;
+        width: auto;
+    }
+    .pizza{
+        display: block;
+        
+    }
+    #piadina{
+        padding-bottom: 60px;
+    }
+  
+    .bottom-center{
+        bottom: 25%;
+        font-size: 15px;
+    }
+    .bottom-center-1{
+        bottom: 30%;
+        font-size: 15px;
+    }
+    .bottom-center-2{
+        bottom: 30%;
+        font-size: 17px;
+    }
+    .bottom-center-3{
+        bottom: 45%;
+        font-size: 17px;
+    }
+
 }
 
     
