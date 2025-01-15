@@ -17,10 +17,11 @@
 }
 #myLinks{
     float: right;
-    padding: 30px;
     font-size: 20px;
     text-decoration: none;
     display: block;
+    padding-right: 60px !important;
+    padding-top: 32px;
 }
 
 #piadina{
@@ -39,6 +40,9 @@
 }
 p{
     color: grey;
+}
+#h4{
+    width: 300px;
 }
 #menu{
     background-color: black;
@@ -300,7 +304,7 @@ a{
 }
 @media only screen and (max-width:1113px){
     #jobb{
-        width: 80%;
+
         margin-right: 5%;
     }
     #MENU{
@@ -347,7 +351,8 @@ a{
       }
       
       .header a.icon {
-        float: right;
+        position: absolute;
+        right: 20px;
         margin-top: 20px;
         margin-right: 20px;
         display: block;
@@ -373,13 +378,20 @@ a{
 {
     .topnav #myLinks {
         display: block;
-      }
+        
+    }
+
+    .div2{
+        padding-left: 60px;
+    }
       
 }
 @media only screen and (max-width:990px){
     .div1{
         margin-left: 150px;
+        width: 20%;
     }
+    
 }
 @media only screen and (max-width:970px){
     #tortenet{
@@ -388,6 +400,12 @@ a{
         width: 85%;
 
     }
+
+    .div3{
+        margin-right: 0px;
+        
+    }
+    
 }
 @media only screen and (max-width:840px){
 
@@ -400,7 +418,7 @@ a{
     }
     #tortenet{
         margin-right: 1%;
-        width: 95%;
+        width: 100%;
     }
     #piadina2{
         margin-left: 0%;
@@ -408,7 +426,14 @@ a{
     }
     #bal{
         column-rule-width: 150px;
-        height: 200px;
+        height: 240px;
+        
+    }
+    .div1{
+        margin-left: 10px;
+    }
+    .div2{
+        padding-left: 0px;
         
     }
 }
@@ -441,20 +466,46 @@ a{
         margin: auto;
         width: auto;
     }
+    .parent{
+        display: block;
+    }
+    .gallery{
+        display: block;
+    }
+    #spec{
+        font-size: 6.5vw;
+    }
     .pizza{
         display: block;
+        text-align-last: center;
+        margin: 20px auto;
+        
         
     }
     #piadina{
-        padding-bottom: 60px;
+        padding-bottom: 100px;
+        height: 50% !important;
+    }
+    #piadina2{
+        width: auto;
+    }
+    #jobb{
+        padding-top: 110px;
+    }
+    .valami{
+        position: relative;
+        bottom: 40px !important;
+    }
+    ul{
+        padding: 0;
     }
   
     .bottom-center{
-        bottom: 25%;
+        bottom: 40%;
         font-size: 15px;
     }
     .bottom-center-1{
-        bottom: 30%;
+        bottom: 40%;
         font-size: 15px;
     }
     .bottom-center-2{
@@ -464,6 +515,20 @@ a{
     .bottom-center-3{
         bottom: 45%;
         font-size: 17px;
+    }
+    .div1{
+        margin-left: 0px;
+        width: auto;
+    }
+    #feher{
+        margin-left: 0 !important;
+    }
+    .div2{
+        padding-left: 0px;
+        width: auto;
+    }
+    .div3{
+        width: auto;
     }
 
 }
